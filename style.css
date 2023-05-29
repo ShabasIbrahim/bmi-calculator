@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+
+    background: rgb(97, 138, 254, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+div {
+    position: relative;
+    /* display: inline; */
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.row {
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex: 50%;
+
+}
+
+#head {
+    justify-content: center;
+    align-items: left;
+
+
+}
+
+span {
+    font-size: 60px;
+    font-family: 'Lora', serif;
+    color: darkcyan;
+    /* color: rgb(42, 111, 239); */
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+
+}
+
+#quote {
+    text-align: start;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+
+}
+
+
+/* **************************************************************************** */
+
+
+
+.box {
+    /* width: 30%; */
+    width: 375px;
+    min-height: 80vh;
+    /* background-color: #d8b5b5; */
+    background-color: rgba(2, 116, 116, 0.712);
+    /* background-color: rgba(14, 95, 161, 0.69); */
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 2px 20px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+h1 {
+    padding: 30px 0;
+}
+
+.form {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+
+}
+
+
+
+.gender {
+    display: flex;
+    padding: 35px 0 0 40px;
+    margin: 0px 0px 0px -29px;
+}
+
+.hw {
+    margin: auto;
+
+}
+
+
+
+.comment {
+    height: 100px;
+    width: 260px;
+    background-color: white;
+    margin: 40px 55px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.089);
+}
+
+
+#start {
+
+
+    color: rgb(4, 4, 17);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+#result {
+    color: rgb(4, 4, 17);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#output {
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgba(128, 0, 0, 0.855);
+    font-family: 'Mukta', sans-serif;
+}
+
+
+
+/* ****************************************************************** */
+
+
+
+
+#foot {
+    margin-top: 50px;
+
+}
+
+
+
+
+
+@media (max-width:991px) {
+
+
+    .col-6 {
+        flex: 50%;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width:767px) {
+
+
+
+
+    #head{
+        flex: 100%;
+
+    }
+
+
+    #Second{
+        flex: 100%;
+    
+
+    }
+
+
+    .box{
+        
+        
+        min-height: 50vh;
+       }
+
+
+       .comment{
+        height: 50px;
+        width: 150px;
+        display:inline;
+        
+    }
+
+
+
+}
+
+
+
+@media (max-width:567px) {
+
+
+    #head{
+        flex: 100%;
+
+    }
+
+
+   
+
+.box{
+     margin-left: -80px; 
+     width: 320px;
+     min-height: 50vh;
+    }
+
+
+.comment{
+    height: 50px;
+    width: 150px;
+    display:inline;
+    
+}
+
+
+}
